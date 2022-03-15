@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+}
+
+#logo {
+    max-height: 100px;
+}
+
+.navbar {
+    background-color: aquamarine;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px double;
+    min-height: 200px;
+}
+
+.carousel-inner {
+    width: 72%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.card {
+    min-width: 175px;
+}
+
+.card-header {
+    background-color: aquamarine;
+}
