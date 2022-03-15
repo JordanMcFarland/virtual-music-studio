@@ -2,6 +2,7 @@ $color-main: #909090;
 $color-secondary: #60D394;
 $color-nav: #BFBFBF;
 $color-background: #000;
+$color-black-transparent: rgba(0, 0, 0, 0.75);
 
 body {
     background-color: $color-background;
@@ -11,6 +12,10 @@ body {
     margin: 0;
     padding: 30px;
     background-color: $color-main;
+}
+
+h3 {
+    color: white;
 }
 
 #logo {
@@ -37,8 +42,16 @@ body {
     min-width: 175px;
 }
 
+.welcome-card-caption {
+    background-color: $color-black-transparent;
+    color: white;
+}
+
 .card-header {
     background-color: $color-secondary;
+    h3 {
+        color: black;
+    }
 }
 
 .site-footer {
@@ -55,4 +68,10 @@ a, a:hover {
 .img-thumbnail {
     max-height: 300px;
     width: auto;
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-secondary;
+    }
 }

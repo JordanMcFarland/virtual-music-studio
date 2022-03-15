@@ -6,6 +6,9 @@ body {
   padding: 30px;
   background-color: #909090; }
 
+h3 {
+  color: white; }
+
 #logo {
   max-height: 100px; }
 
@@ -25,8 +28,14 @@ body {
 .card {
   min-width: 175px; }
 
+.welcome-card-caption {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white; }
+
 .card-header {
   background-color: #60D394; }
+  .card-header h3 {
+    color: black; }
 
 .site-footer {
   background-image: linear-gradient(#60D394, black);
@@ -40,3 +49,6 @@ a, a:hover {
 .img-thumbnail {
   max-height: 300px;
   width: auto; }
+
+#loginModal .modal-header {
+  background-color: #60D394; }
