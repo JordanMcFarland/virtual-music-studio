@@ -1,7 +1,8 @@
-$color-main: #909090;
-$color-secondary: #60D394;
-$color-nav: #BFBFBF;
-$color-background: #000;
+$color-main: #0a9396;
+$color-secondary: #bb3e03;
+$color-splash: #ee9b00;
+$color-nav: #ae2012;
+$color-background: #001219;
 $color-black-transparent: rgba(0, 0, 0, 0.75);
 
 body {
@@ -11,7 +12,7 @@ body {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-color: $color-main;
+    background-image: linear-gradient(to right, $color-splash, $color-main, #ae2012);
 }
 
 h3 {
@@ -23,7 +24,7 @@ h3 {
 }
 
 .navbar {
-    background-color: $color-nav;
+    background-image: linear-gradient(to right, $color-splash, $color-main, #ae2012);
 }
 
 .row-content {
