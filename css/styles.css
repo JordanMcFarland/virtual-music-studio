@@ -1,23 +1,31 @@
 body {
-  background-color: #001219; }
+  background-color: white; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #ee9b00, #0a9396, #ae2012); }
+  background-color: #0a9396; }
+  .jumbotron h2 {
+    color: black;
+    font-style: italic; }
 
-h3 {
-  color: white; }
+h1 {
+  color: black;
+  font-family: "Acme", sans-serif; }
+
+h2, h3 {
+  color: #0a9396;
+  font-family: "Acme", sans-serif; }
 
 #logo {
   max-height: 100px; }
 
 .navbar {
-  background-image: linear-gradient(to right, #ee9b00, #0a9396, #ae2012); }
+  background-color: #0a9396; }
 
 .row-content {
   padding: 50px 0;
-  border-bottom: 1px double;
+  border-bottom: 1px double #0a9396;
   min-height: 200px; }
 
 .carousel-inner {
@@ -25,22 +33,30 @@ h3 {
   margin: auto;
   margin-bottom: 50px; }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%); }
+
 .card {
   min-width: 175px; }
 
 .welcome-card-caption {
-  background-color: rgba(0, 0, 0, 0.75);
-  color: white; }
+  background-color: rgba(0, 0, 0, 0.75); }
+  .welcome-card-caption h3 {
+    color: white; }
+  .welcome-card-caption p {
+    color: white; }
 
 .card-header {
-  background-color: #bb3e03; }
+  background-color: #0a9396; }
   .card-header h3 {
-    color: black; }
+    color: white; }
 
 .site-footer {
-  background-image: linear-gradient(#bb3e03, black);
+  background-image: linear-gradient(#0a9396, black);
   padding: 20px 0;
   color: white; }
+  .site-footer .btn-link {
+    color: white; }
 
 a, a:hover {
   color: inherit;
@@ -51,4 +67,12 @@ a, a:hover {
   width: auto; }
 
 #loginModal .modal-header {
-  background-color: #bb3e03; }
+  background-color: #005f73; }
+  #loginModal .modal-header .modal-title {
+    color: white; }
+
+table thead {
+  background-color: #005f73; }
+
+table tbody {
+  background-color: #94d2bd; }
